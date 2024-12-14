@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero .nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(245, 238, 239);
+img{
+    height: 50px;
+    margin: 9px;
+}
+}
+
+.hero .nav nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.hero .nav nav ul li a {
+  display: flex;
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.hero .nav{
+    input{
+    padding-right: 11cm;
+    height: 1.2cm;
+    font-size: 15px;
+}
+}
+.navbar nav{
+     display: flex;
+    height: 1.5cm;
+    background-color: white;
+}
+.navbar nav ul{
+    
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 20px;
+}
+.navbar nav ul li a {
+  display: flex;
+  color: black;
+  font-size: 13.7px;
+  text-decoration: none;
+  margin-left: 9px;
+}
+.img img{
+    height: 100vh;
+    width: 100%;
+}
+.cherish{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.ring-cards{
+    display: flex;
+    img{
+        height: 57vh;
+        margin-left: 25px;
+    }
+.card{
+     border: 1px solid white;
+     padding:10px;
+     padding-top: 30px;
+     margin: 5px;
+     margin-top: 10px;
+       &&:hover{
+         box-shadow: 0 0 5px rgb(193, 166, 171);
+     }
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 25px;
+        font-weight: lighter;
+    
+    }
+}
+}
+.loved{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.earring-cards{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        height: 48vh;
+        margin-left: 40px;
+    }
+.card{
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    h1{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+}
+}
+.category{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.category-card1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding-left: 40px;
+    img{
+        height: 48vh;
+        margin-left: 40px;
+    }
+.card{
+     border: 1px solid white;
+     margin: 20px;
+       &&:hover{
+         box-shadow: 0 0 10px rgb(193, 166, 171);
+     }
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    h1{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+}
+img{
+    padding-top: 30px;
+    padding-right: 40px;
+}
+}
+.category-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px;
+    padding-left: 40px;
+    img{
+        height: 48vh;
+        margin-left: 40px;
+    }
+.card{
+     border: 1px solid white;
+     margin: 20px;
+     &&:hover{
+        box-shadow: 0 0 10px  rgb(193, 166, 171);
+        
+     }
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    h1{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+}
+img{
+    padding-top: 30px;
+    padding-right: 40px;
+}
+}
+.collection{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.collection-cards{
+    display: flex;
+    img{
+        height: 57vh;
+        margin-left: 25px;
+    }
+.card{
+     border: 1px solid white;
+     padding:10px;
+     padding-top: 30px;
+     margin: 5px;
+     margin-top: 10px;
+       &&:hover{
+         box-shadow: 0 0 5px rgb(193, 166, 171);
+     }
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 25px;
+        font-weight: lighter;
+    
+    }
+}
+}
+.pick{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.gift img{ 
+    width:95%;
+    margin: 20px;
+}
+.sellers{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.sellers{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.seller{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.top-cards{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        height: 48vh;
+        margin-left: 40px;
+    }
+.card{
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    h1{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+}
+}
+.new{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.new-cards{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        height: 65vh;
+        margin-left: 25px;
+    }
+.card{
+     border: 1px solid white;
+     padding: 15px;
+     margin:5px;
+     margin-top: 10px;
+       &&:hover{
+         box-shadow: 0 0 5px rgb(193, 166, 171);
+     }
+}
+}
+.gender{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.gender-cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+    img{
+      height: 57vh;
+        margin-left: 25px;
+    }
+.card{
+     border: 1px solid white;
+     padding:10px;
+     padding-top: 30px;
+     margin: 5px;
+     margin-top: 10px;
+       &&:hover{
+         box-shadow: 0 0 5px rgb(193, 166, 171);
+     }
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 25px;
+        font-weight: lighter;
+    
+    }
+}
+}
+.sparkle{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(38, 4, 4);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+button{
+    border-color: white;
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+    height: 60px;
+    width: 20%;
+    align-items: center;
+    border-radius: 30px;
+    &&:hover{
+        color: white;
+        background-color: rgb(122, 30, 30)
+    }
+}
+}
+.mia img{ 
+    width:95%;
+    margin: 20px;
+}
+.bride img{ 
+    width:95%;
+    margin: 20px;
+}
+.guide{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.guide-card{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        height: 48vh;
+        margin-left: 40px;
+    }
+.card{
+    h3{
+        padding-left: 40px;
+        color: rgb(122, 30, 30);
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    h1{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+}
+}
+.contact{
+    text-align: center;
+    margin: 40px;
+    h1{
+        font-size: 45px;
+        color: rgb(122, 30, 30);
+        padding-bottom: 13px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 27.5cm;
+    }
+}
+.box .wtsp{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%;
+    height: 4.6cm;
+    margin-left: 40px;
+    padding-left: 50px;
+    h4{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    h2{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    i{
+    margin-left:20%;
+    font-size: 80px;
+}
+}
+
+.upper-footer footer {
+  display: flex;
+  padding-left:5%;
+  gap: 50px;
+  padding-top:40px;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  color: white;
+}
+.upper-footer footer {
+  display: flex;
+  gap:90px;
+  background-color: rgb(245, 238, 239);
+  color:rgb(122, 30, 30);
+  img{
+    width: 40%;
+    padding-left: 10px;
+  }
+  i{
+    padding:10px;
+    font-size: 30px;
+    color: black;
+  }
+  p{
+    font-size:18px;
+  }
+}
+.upper-footer footer h1 {
+  padding-bottom: 15px;
+}
+
+.lower-footer footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color:rgb(245, 238, 239);
+  color:black;
+
+}
+.lower-footer footer i {
+  font-size: 40px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px){
+.hero .nav nav{
+  background-color:rgb(245, 238, 239);
+  padding-left:0px;
+}
+.hero .nav nav ul{
+    gap: 1px;
+}
+.hero .nav input{
+    padding-right: 2cm;
+}
+.navbar nav ul{
+    margin-left: 0px;
+    gap: 0px;
+}
+.navbar nav{
+    height: 2cm;
+}
+.cherish{
+    img{
+        width: 100%;
+    }
+}
+.ring-cards{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.loved{
+    img{
+        width: 100%;
+    }
+}
+.category{
+    img{
+        width: 100%;
+    }
+}
+.category-card1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.category-card{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.collection-cards{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sellers{
+   img{
+    width: 100%;
+   }
+}
+.seller{
+   img{
+    width: 100%;
+   }
+}
+.new{
+   img{
+    width: 100%;
+   }
+}
+.guide {
+    img {
+        width:100%;
+    }
+}
+.contact {
+    img {
+        width:100%;
+    }
+}
+.pick {
+    img {
+        width:100%;
+    }
+}
+.collection {
+    img {
+        width:100%;
+    }
+    }
+.upper-footer footer{
+    gap: 50px;
+}
+}
